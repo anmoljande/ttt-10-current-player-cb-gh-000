@@ -8,3 +8,8 @@ board.each do |val|
  end   
 return count   
 end
+
+def current_player(board)
+
+  
+end
