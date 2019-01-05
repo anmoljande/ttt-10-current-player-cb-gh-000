@@ -11,5 +11,11 @@ end
 
 def current_player(board)
 
+total_turns=turn_count(board)
+if(total_turns%2!=0)
+  return "X"
+else 
+  return "O"
   
+
 end
