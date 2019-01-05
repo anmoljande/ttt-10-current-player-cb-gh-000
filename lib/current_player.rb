@@ -5,5 +5,6 @@ board.each do |val|
   if(val=="X" || val=="O")
     count+=1 
   end 
+end   
 return count   
 end
